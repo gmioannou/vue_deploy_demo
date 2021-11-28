@@ -1,10 +1,11 @@
 version: '3.8'
 services:
-  demo_app:
+  app:
     build:
-      context: ./demo_app
+      context: ./app
       dockerfile: Dockerfile.local
+    image: app
     volumes:
-      - ./demo_app:/demo_app
+      - ./app:/app
     ports:
       - "3000:3000"
