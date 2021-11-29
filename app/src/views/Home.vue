@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    <h2>Deploy with docker and nginx</h2>
+    <h2>Deploy with docker and nginx!</h2>
+    <h3>This is a demo app!</h3>
     <h3>Api: {{ apiUrl }}</h3>
     <h3>Geoserver: {{ geoserverUrl }}</h3>
   </div>
